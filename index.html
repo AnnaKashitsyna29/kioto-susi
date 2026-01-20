@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Японская кухня - Меню</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">🪭 KIOTO</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Меню</a></li>
+        <li><a href="cart.html" class="cart-icon">
+          🛒
+          <span class="cart-count" id="cartCount">0</span>
+        </a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Аутентичная японская кухня в самом сердце города</h1>
+        <p class="hero-text">
+          Наш ресторан сочетает классические японские рецепты и современную подачу. 
+          Мы тщательно отбираем ингредиенты, чтобы каждый ролл, суши и суп дарили вам 
+          атмосферу Токио и уюта традиционных японских закусочных.
+        </p>
+        <a href="#menuSection" class="hero-button">Перейти к ассортименту</a>
+      </div>
+    </section>
+
+    <section id="menuSection" class="container">
+      <div id="dishesContainer"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">🪭 KIOTO</div>
+        <p class="footer-text">Аутентичная японская кухня, свежие ингредиенты и бережное отношение к традициям.</p>
+      </div>
+      <div class="footer-info">
+        <p>г. Москва, ул. Токийская, 12</p>
+        <p>Ежедневно с 11:00 до 23:00</p>
+        <p>Тел.: +7 (900) 123‑45‑67</p>
+      </div>
+      <div class="footer-meta">
+        <p>© 2026 SUSHI. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data/dishes-data.js"></script>
+  <script src="scripts/notification.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
