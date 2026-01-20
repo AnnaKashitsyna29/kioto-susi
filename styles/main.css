@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Karate";
+  src: url("../fonts/Karate.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Cormorant+Garamond:wght@500;600;700&family=Pacifico&display=swap');
 
 * {
@@ -64,7 +71,7 @@ nav {
   color: var(--japanese-red);
   text-decoration: none;
   letter-spacing: 2px;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Karate';
 }
 
 .nav-links {
@@ -317,6 +324,7 @@ nav {
   font-weight: 700;
   margin-bottom: 0.5rem;
   color: var(--japanese-red);
+  font-family: 'Karate';
 }
 
 .footer-text {
